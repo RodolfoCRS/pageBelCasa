@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+
+h1 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.direitostxt h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* HEADER */
+
+header {
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: red;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+nav img {
+    width: 200px;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.713);
+}
+
+.redes-sociais img {
+    width: 30px;
+}
+
+
+/* MAIN */
+
+
+.container-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.foto-com-texto {
+    position: relative;
+    left: 150px;
+    width: 1320px;
+    height: 924px;
+    background-repeat: no-repeat;
+    background-image: url(../img/BelCasa\ Fundo\ 01.png);
+}
+
+.foto-com-texto3 {
+    position: relative;
+    left: 150px;
+    width: 1320px;
+    height: 924px;
+    background-repeat: no-repeat;
+    background-image: url(../img/BelCasa\ Fundo\ 01\ travesseiro.png);
+}
+
+.texto-dentro {
+    position: absolute;
+    top: 26px;
+    left: -271px;
+}
+
+.texto h1 {
+    color: rgb(138, 7, 7);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.texto button {
+    padding: 13px;
+    width: 200px;
+    background-color: rgb(138, 7, 7);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.texto {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.67);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 180px;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(2.8px);
+}
+
+.elemento {
+    margin-bottom: 50px;
+}
+
+
+.borda {
+    border: 1px solid gray;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(232, 232, 232);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.section-1 img {
+    margin: 50px;
+}
+
+
+
+/* SECTION 2 */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SECTIO 3 */
+
+.quem-somos button {
+    padding: 13px;
+    width: 200px;
+    background-color: rgb(138, 7, 7);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.quem-somos h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(138, 7, 7);
+
+}
+
+.quem-somos p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+
+.container-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    margin-top: 100px;
+    padding: 20px;
+    width: 100%;
+}
+
+.borda1 {
+    border: 1px solid gray;
+    width: 87px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+
+.info-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    width: 50%;
+}
+
+.texto-footer {
+    text-align: center;
+}
+
+.info-footer h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.info-footer p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.informacoes-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    width: 50%;
+}
+
+
+.texto-footer button {
+    padding: 13px;
+    width: 200px;
+    background-color: white;
+    color: red;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.redes-sociais img {
+    margin: 10px;
+}
+
+
+.informacoes-footer {
+    color: black;
+
+}
+
+.informacoes-footer ol li {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+/* DIREITOS */
+
+.direitos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: red;
+    padding: 20px;
+    color: white;
+}
+
+.direitostxt {
+    font-size: 10px;
+}
+
+
+/* PÁGINA 2 */
+
+#ah1size {
+    font-size: 70px;
+}
+
+
+.foto-com-texto2 {
+    position: relative;
+    left: 150px;
+    width: 1320px;
+    height: 924px;
+    background-repeat: no-repeat;
+    background-image: url(../img/fundo01.png);
+}
+
+
+.section2-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.riscolateral {
+    border: 2px solid red;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+.section2-texto {
+    width: 100%;
+
+}
+
+.section2-imgwpp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section2-imgwpp img{
+margin-top: 10px;
+}
+
+.section2-texto p {
+    font-size: 25px;
+    color: gray;
+}
+
+
+.section2-imgwpp p {
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.section2-numero p {
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+/* ONDE ESTAMOS */
+
+.section3-container {
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.section3-titulo {
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(138, 7, 7);
+}
+
+.section3-risco {
+    border-bottom: 2px solid gray;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+
+.section3-local1 {
+    font-size: 25px;
+    color: rgb(138, 7, 7);
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section3-container-local1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.section3-local1-info1 {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.section3-local1-info1a {
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.section3-local1-info1a img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.section3-local1-info1b {
+    font-size: 25px;
+}
+
+
+.section3-local1-info12 {
+    display: flex;
+    align-items: center;
+    gap: 156px;
+}
+
+.section3-local1-info123 {
+    display: flex;
+    align-items: center;
+    gap: 259px;
+}
+
+.section3-local1-info1234 {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+}
+
+.section3-local1-info12345 {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+
+
+.section3-local1-info123456 {
+    display: flex;
+    align-items: center;
+    gap: 315px;
+}
+
+.section3-local1-info1234567 {
+    display: flex;
+    align-items: center;
+    gap: 149px;
+}
+
+
+
+.section3-local1-info12345678 {
+    display: flex;
+    align-items: center;
+    gap: 312px;
+}
+
+
+.section3-local1-info123456789 {
+    display: flex;
+    align-items: center;
+    gap: 117px;
+    margin-bottom: 50px;
+}
+
+
+/* SECTION NOVA */
+
+.titul h2 {
+    font-size: 45px;
+    color: rgb(138, 7, 7);
+    margin-top: 20px;
+    width: 56%;
+}
+
+
+.section3-local1-info-nova-1 {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.section3-local1-info-nova-2 {
+    display: flex;
+    align-items: center;
+    gap: 275px;
+}
+
+.section3-local1-info-nova-3 {
+    display: flex;
+    align-items: center;
+    gap: 308px;
+}
+
+.section3-local1-info-nova-4 {
+    display: flex;
+    align-items: center;
+    gap: 330px;
+}
+
+
+.section3-local1-info-nova-5 {
+    display: flex;
+    align-items: center;
+    gap: 380px;
+    margin-bottom: 50px;
+}
+
+.consertar {
+    width: 100%;
+}
+
+
+.section3-container {
+    width: 86%;
+}
+
+
+
+/* LOJA */ 
+
+.texto ol li {
+font-size: 25px;
+line-height: 35px;
+}
+
+.titulo-carrossel {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    font-size: 40px;
+    color:rgb(138, 7, 7);
+    font-weight: bold;
+}
+
+.risco-carrossel {
+    width: 130px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+}
+
+
+
+
+
